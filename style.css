@@ -66,6 +66,7 @@
 /* Main Section Style */
 
 .main-section {
+     width:1140px ;
     margin: 0 159px 0 140px;
 }
 
@@ -105,4 +106,79 @@
     height: 325px;
     width: 400px;
     border-radius: 48px;
+}
+
+/* User Review Part */
+
+.productive-user-container {
+    width: 1140px;
+    height: 305px;
+    background-color: rgba(78, 71, 255, 0.1);
+    text-align: center;
+    border-radius: 24px;
+}
+.prodictive-user-title {
+    font-size: 38px;
+    font-weight: bolds;
+}
+.user-review {
+    width: 162px;
+    height: 100px ;
+}
+.user-review h1 {
+    font-size: 80px;
+    font-weight: bold;
+    color:rgba(78, 71, 255, 1) ;
+}
+.user-review p {
+  color: rgba(37, 36, 50, 0.5);
+}
+.user-content {
+    padding:50px 155px;
+}
+.user-review-container {
+   display: flex;
+   justify-content: space-between;
+    padding-top: 40px;
+}
+
+/* User Opinion Section */
+.user-opinion-container {
+    margin-top: 140px;
+}
+.user-opinion-container-title {
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.column-content h2,p {
+    padding: 10px 0;
+}
+.review-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+.review-column {
+    width: 320px;
+    height: 240px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px .2px black;
+}
+
+.reviewer {
+    display: flex;
+}
+.reviewer img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    margin-right: 20px;
+    padding-top: 20px;
+}
+.reviewer-name {
+    color: rgba(37, 36, 50, 0.5);
+     padding-top: 20px;
 }
