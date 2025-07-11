@@ -11,6 +11,7 @@
   font-variation-settings:
     "wdth" 100;
 }
+
 /* Common Style Start*/
 
 .button {
@@ -46,6 +47,10 @@
 }
 .nav-logo {
     font-size: 34px;
+}
+.nav-signup button:hover {
+    background-color: #17ea2c;
+    transition: 0.5s;
 }
 
 /* Banner Section */
@@ -165,7 +170,7 @@
     height: 240px;
     padding: 10px;
     border-radius: 20px;
-    box-shadow: 5px 5px 20px .2px black;
+    box-shadow: 0 0 10px 5px #d9dadd;
 }
 
 .reviewer {
@@ -199,9 +204,6 @@
 }
 .inputField-column {
     width: 50%;
-}
-form {
-   
 }
 
 form input{
@@ -238,4 +240,42 @@ form a {
 form label {
     padding-left: 20px;
    margin-top: 50px;
+}
+
+/* Footer Section style */
+
+footer {
+    width:1440px ;
+    height: 698px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    width: 530px;
+    height: 220px;
+    text-align: center;
+}
+.footer-content-title {
+    font-size: 100px;
+    font-weight: 'Black';
+    font-family: inter;
+}
+.footer-nav{
+    list-style-type: none;
+}
+.footer-nav li{
+    display: inline;
+    margin-right: 20px;
+}
+.footer-nav li:hover{
+    background-color: #99c3f2;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: .5s;
+}
+.footer-nav li a{
+   text-decoration: none;
 }
