@@ -2,18 +2,35 @@
     margin: 0;
     padding: 0;
 }
+/* Google fonts */
 
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 /* Common Style Start*/
 
 .button {
     background-color: rgba(78, 71, 255, 1);
     padding: 10px 15px;
     color: white;
+    font-weight: bold;
     border-radius: 10px;
+    border-style: none;
+}
+.color-blue {
+    color: rgba(78, 71, 255, 1) ;
+}
+.dark-2 {
+    color: rgba(37, 36, 50, 0.5);
 }
 
 /* Common Style End*/
 
+/* Header Section Style */
 .header {
     width:1440px ;
     height: 698px;
@@ -26,4 +43,66 @@
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
+}
+.nav-logo {
+    font-size: 34px;
+}
+
+/* Banner Section */
+.banner-container {
+    width: 905px;
+    height: 237px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 152px;
+}
+.banner-content {
+    font-size: 65px;
+    font-weight: boldss;
+    padding-top: 200px;
+    margin-bottom: 50px;
+}
+
+/* Main Section Style */
+
+.main-section {
+    margin: 0 159px 0 140px;
+}
+
+/* Action Part */
+
+.action-container {
+    display: flex;
+    width: 1140px;
+    height:330px ;
+    margin: o auto;
+    margin-top: 116px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 116px;
+}
+.action-content {
+    width: 517px;
+    height: 203px;
+   
+}
+.action-content p {
+ margin-bottom: 25px;
+   
+}
+.action-h3 {
+    font-size: 43px;
+    font-weight: bold;
+     margin-bottom: 23px;
+}
+
+.action-image-div {
+    height: 325px;
+    width: 400px;
+    border-radius: 48px;
+}
+.action-image {
+    height: 325px;
+    width: 400px;
+    border-radius: 48px;
 }
