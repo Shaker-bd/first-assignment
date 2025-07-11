@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Common Style Start*/
+
+.button {
+    background-color: rgba(78, 71, 255, 1);
+    padding: 10px 15px;
+    color: white;
+    border-radius: 10px;
+}
+
+/* Common Style End*/
+
+.header {
+    width:1440px ;
+    height: 698px;
+    background-image: url(Assets/Hero-bg.png);
+}
+.navbar {
+    height: 151px;
+    width:1140px ;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
