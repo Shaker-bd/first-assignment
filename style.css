@@ -67,6 +67,11 @@
     padding-top: 200px;
     margin-bottom: 50px;
 }
+.banner-container button:hover {
+    background-color: #17ea2c;
+    transition: 0.5s;
+    cursor: pointer;
+}
 
 /* Main Section Style */
 
@@ -111,6 +116,11 @@
     height: 325px;
     width: 400px;
     border-radius: 48px;
+}
+.action-button button:hover {
+     background-color: #17ea2c;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 /* User Review Part */
@@ -232,6 +242,12 @@ form button{
     padding: 0 20px;
     
 }
+form button:hover {
+     background-color: #17ea2c;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
 form a {
     display: block;
     text-decoration: none;
